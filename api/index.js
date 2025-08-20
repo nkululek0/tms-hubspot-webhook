@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const { onboardMessages, sendUserInvitesMessages } = require("./response-message-types");
+const { onboardMessages, sendUserInvitesMessages } = require("../types/response-message-types");
 require("dotenv").config();
 
 app.use(cors());
