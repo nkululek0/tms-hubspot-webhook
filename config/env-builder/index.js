@@ -2,7 +2,7 @@ const Reader = require('./reader/reader.js');
 const Writer = require('./writer/writer.js');
 
 const backendFileReader = new Reader();
-const content = backendFileReader.setContent('config/env-builder/.env').getContent();
+const content = backendFileReader.setContent('config/env-builder/.env-build').getContent();
 
 const writer = new Writer('.env');
 writer
